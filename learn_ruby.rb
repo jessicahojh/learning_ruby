@@ -70,8 +70,16 @@ class Warrior
 
 
     def about
-        puts ""
+        puts "Here's all the info: #{@name} #{@clan} #{@strength} #{@dexterity}"
+    end
+end
 
+
+player_1 = Warrior.new("Jess", "Green Clan", 300, 400)
+player_2 = Warrior.new("TK", "Blue Clan", 300, 500)
+
+player_1.about
+player_2.about
 
 
 
